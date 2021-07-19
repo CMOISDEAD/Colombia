@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body{
+  background:url("http://wallpapers.net/indoor-plants-hd-wallpaper/download/3840x2160.jpg") center center no-repeat fixed;
+  background-size:cover;
+  background-color: #464646;
+  color:#fff;
+}
+
+.main-title{
+  font-family: 'Satisfy', cursive !important;
+}
+
+blockquote{
+  font-family: 'Amatic SC', cursive !important;
+  font-size: 2rem !important;
+}
+
+figcaption{
+  font-family: 'Amatic SC', cursive !important;
+  font-size: 1.5rem !important;
+}
+
+cite{
+  font-family: 'Amatic SC', cursive !important;
+  font-weight: bold;
+}
+
+.card-title{
+  text-transform:capitalize;
+}
+
+.card-text{
+  text-align:center;
+}
+
+.card>img{
+  transition: all 0.7s ease-out;
+  filter: grayscale(30%);
+}
+
+.card>img:hover{
+  transition: all 0.7s ease-out;
+  filter: grayscale(0%);
+}
